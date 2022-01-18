@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+    <meta name="description" content="Pirtofolio">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ff7db8">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ee2a7b">
+
+  <meta name="keywords" content="Web desinging,Web developer,AI,Machine learning">
+  <meta name="author" content="Aditya Savita">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+        <title>Instagram:Aditya_Programmer</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://raw.githack.com/BartikaKumar/Popify/main/script.js"></script>
+      
+         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body onload="checkCookie()">
+     
+             <div id="home" class="tabsc">
+        <!--TopNavigation-->
+   
+    <div id="NavTop">
+    
+           <h1 id="logo_name"></h1>
+           <!--Removing margin-->
+           <h1 class="logo1"></h1>
+            <h1 class="logo1"></h1>
+                 <h1 class="logo1"></h1>
+                  <h1 class="logo1"><span id="flogoS" class="material-icons">
+
+</span></h1>       
+
+
+</h1>
+
+           
+           
+               </div>
+        
+    
+
+               <!--Navifations Main content srart-->
+        <br /><br /><br>
+        <div id="stories">
+            <div class="story"><br><br><span>Your Story</span></div>
+             <div class="story"></div>
+              <div class="story"></div>
+            <div class="story"></div>
+             <div class="story"></div>
+             
+         </div>
+         <!-- stories end -->
+   
+       <div id="post1" class="post">
+        <div id="about_post"><div id="post_image"></div><h3>Ronaldo</h3> </h1>
+               <h1 class="post_ellips"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></h1></div>
+      <img src="https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/0de42c455d893a750804b33c43099d09.jpg?alt=media&token=2000408c-de6b-49d7-971b-96772c13aed6">
+      <div id="like_section">
+          
+          
+          <h1 class="likes_icon"><span id="flogo" class="material-icons">
+favorite_border
+</span></h1>
+<h1 class="likes_icon"><i class="fa fa-comment-o"></i></h1>
+
+<h1 class="likes_icon"><span id="flogo" class="material-icons" >
+favorite
+</span></h1>
+
+
+
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 class="likes_icon"></h1>
+<h1 id="saved_post" class="likes_icon"><i class="fa fa-bookmark-o" onclick="toastify({
+    text:'You saved this post.',
+    toastBoxColor:'grey',
+    toastBoxTextColor:'white',
+    toastBoxShadow:'none',
+    toastBoxTextAlign:'center',
+    toastWidth:'90vw',
+    animationOut:'scale-up',
+    position:'bottom left',
+    toastCloseTimer:'2200',
+})"></i></h1>
+</div></div>
+      
+      
+       <!--home end div --> 
+        </div>
+        <!--home end --> 
+        
+        <!--favourute-->
+      <div id="favourite_icon_notify"
+      class="tabsc" style="display:none">
+        
+        <div id="likes_notification">
+            
+            <h1>Activity</h1>
+            <div class="notification">
+                <div class="notify_img"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">Aditya_pro</span> Liked your post</p>
+                    <p class="notify_time">1 hour ago</p>
+                </div>
+                
+            </div>         
+            
+            
+                 <div class="notification">
+                <div class="notify_img"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">Aditya_pro</span> Liked your post</p>
+                    <p class="notify_time">1 hour ago</p>
+               </div>
+                <div class="notify_img">
+               </div> 
+               
+                </div>
+                   
+                  <!--notify under
+end -->
+            
+        </div>
+        
+        <style>
+            .notification{
+                display:flex;
+                margin:auto;
+                width:350px;
+                padding:5px ;
+            }
+.notify_time{
+    opacity:.5;
+}
+.notify_img {
+    border:.4px solid grey;
+    height:50px;width:50px;
+    border-radius:50%;
+    margin:1%;
+    margin-top:auto ;
+    
+}
+.notify_img,.notify_text{
+    margin:1%;
+    margin-top:auto;
+    color:black;
+}
+
+
+.notify_name{
+font-weight:bold;
+color:black;
+
+
+}
+        </style>
+      
+      
+</div>
+<!-- notification end -->
+<!-- search-->
+<div id="search"  class="tabsc" style="display:none">
+    <h1>SEARCH</h1>
+</div>
+
+        <!-- create -->
+         <div id="create" class="tabsc" style="display:none">
+             <h1>🙏🙏🙏🙏❔</h1>
+              
+         </div>
+   <!-- profile -->
+   <div id="profile" style="display:none" class="tabsc">
+       
+      <div id="profile_top_nav">
+       <span id="lock" class="material-icons">
+lock
+</span>
+           <h2 id="user_id_name">aditya.progra...</h2>
+         
+            
+           <i id="upload_post" class=" fa fa-plus"></i>
+         <span id="profile_setting_menu"class=" material-icons">menu</span>
+        
+       </div>
+       <br /><br><br>
+       <!--image , followings -->
+       
+       <div id="user_image_following">
+           
+           <div id="user_profile_img"></div>
+           
+           <div id="followings">
+              <div class="fllw_fllng" id="post"><h4>100</h4><span>Post</span></div>
+               <div class="fllw_fllng" id="post"><h4>350M</h4><span>Followers</span></div>
+            <div class="fllw_fllng" id="following"><h4>200</h4><span>
+            Followings</span></div>    
+           </div      
+       </div>
+       
+      </div>
+        <!--user_image_following end-->
+       
+        <div id="user_bio">
+        
+             <h3>Aditya_Sav...</h3>
+             <p id="bio">
+             
+                <b><i> 🇮🇳 Indian</i><br> <i>⛳ Hindu</i><br></b> <span style="font-weight:500">"Die with memories, not dreams" 
+                <i style="font-weight:500">
+                   <br> Be alone 
+                    
+                    
+                </i>
+       </span>      </p>
+             <div id="edit_profile">
+                 <b style="font-size:17px; margin:auto; opacity:1;">Edit Profile</b>
+             </div>
+             </div>
+             <!--story-->
+             <div id="story_highlights">
+                 <h3>Story Highlights</h3>
+                 <p style="font-weight:370;">Keep your favourite story on your profile</p>
+                 <div id="story_icon_container">
+                 
+                     
+                      <!--first icon-->
+                   <div class="story_hightligh_icon_add"><i id="add_strory_h" class="fa fa-plus"></i></div>
+                        
+                      <!--first icon-->
+                   <div class="story_hightligh_icon"></div>
+                   
+                     
+                      <!--first icon-->
+                   <div class="story_hightligh_icon"></div>
+                     <!--first icon-->
+                   <div class="story_hightligh_icon"></div>
+                   
+                              
+                                                  </div>
+        </div>
+        <!-- bio , story highlights end -->          
+                 
+                 
+                 
+            <h1><p>her</p>dlud
+vig</h1>
+         <style>
+             #profile_top_nav{
+    
+    height:45px;width:100%;
+    position:fixed;
+    text-align:center ;
+    
+    background-color:white;
+    display:flex;
+    
+    
+}
+#user_id_name,#upload_post,#profile_setting_menu,#lock{
+    margin:auto; 
+}
+#lock{
+    margin-left:-1px;
+}
+#user_id_name{
+    margin-left:-25px;
+    font-weight:bolder;
+}
+#profile_setting_menu{
+    margin-righ:1px;
+    float:right ;
+}
+#upload_post{
+    margin-right:-20px;
+        
+}
+#user_image_following{
+    height:100px;
+    border:0px solid black;
+    display:flex;
+}
+
+#user_profile_img{
+    height:90px;width:90px;
+    border:.001px solid grey;
+    margin:auto;
+    border-radius:50%;
+    margin-left:10px;
+}
+
+#followings{
+    display:flex;
+    margin:auto;
+    justify-content:space-around;
+    text-align:center ;
+    
+}
+.fllw_fllng{
+    margin:10px;
+    margin-top:auto ;
+}
+#user_bio{
+    margin:3%;
+    color:black;
+}
+
+#edit_profile{
+    border:1px solid grey ;
+    opacity:1;
+    height:30px;
+    margin-top:10px;
+    text-align:center ;
+    border-radius:5px;
+    display:grid;
+}
+#story_highlights{
+    margin-top:15px;
+    margin:10px;
+}
+.story_hightligh_icon{
+    height:60px;width:60px;
+    border:1px solid white;
+    opacity:.4;
+    display:grid;
+    background-color:grey;
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:50%;
+}
+.story_hightligh_icon_add{
+height:60px;width:60px;
+    border:1px solid black;
+    display:grid;
+
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:50%;
+}
+#add_strory_h{
+    display:grid;
+    margin:auto ;
+}
+#story_icon_container{
+    display:flex;
+    height:60px;
+    
+}
+
+         </style>
+        
+   </div>
+        <!-- Start bottomNavigation-->
+        <div id="NavBottom">
+            <h1 class="logo">
+<span id="flogoH" onclick="tabs('home')" class="material-icons">
+home
+</span>
+             </h1>
+               <h1 class="logo"><span id="flogoSE" onclick="tabs('search')" class="material-icons">
+search 
+</span></h1>
+                  <h1 class="logo"  >
+                    <div id="flogoC"  onclick="tabs('create')">
+
+</div>
+                  </h1>
+  <h1 class="logo"  >
+    
+  <span id="flogoA" class="material-icons" onclick="tabs('favourite_icon_notify')">
+favorite_border
+</span>
+    
+</h1>
+           <h1 class="logo">
+            <div id="flogoAC" onclick="tabs('profile')"></div>
+               
+           </h1>
+           </div>
+       <!-- bottom nav end -->
+    
+    
+    
+    <script>
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  let user = getCookie("username");
+  if (user != "") {
+    alert("Welcome Again " + user);
+  } else {
+     user = prompt("Please enter your name:","");
+     if (user != "" && user != null) {
+       setCookie("username", user, 30);
+     }
+  }
+}
+</script>
+
+
+    
+    
+    
+    
+
+</html>
