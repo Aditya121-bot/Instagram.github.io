@@ -430,7 +430,293 @@ function checkCookie() {
 </script>
 
 
+
+<style>
     
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');       
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
+
+
+
+.active{
+    color:red;
+}
+
+body {
+    
+    
+}
+*{
+    box-sizing:border-box ;
+    margin:0;
+    padding:0;
+}
+
+#NavTop{
+    
+    border:0px solid white;
+    height:45px;
+    justify-content:flex-end;
+    display:flex;
+    
+    background-color:white;
+    border-bottom-color:white;
+    border-bottom-width:1px;
+    width:100%;
+    
+    transition:all .5s;
+    top:0;
+    position:fixed;
+    }
+
+#NavBottom{
+    
+    border:0px solid white;
+    height:40px;
+    background-color:white;
+    display:flex;
+    border-top-width:1px;
+    width:100%;
+ box-shadow:2px 2px 2px 2px grey;      
+    transition:all .5s;
+    bottom:0;
+    position:fixed;
+    
+}
+#logo_name{
+    margin:auto;
+    margin-left:2%;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png);
+    background-size:cover;
+    width:120px;
+    height:40px;
+
+}
+
+
+
+
+.logo1:hover{
+    
+    font-size:31px;
+    
+    color:transparent ;
+    -webkit-background-clip:text;
+    background-image:linear-gradient(#7f00ff,#1ca7e7);
+    transition:all .2s;
+}
+.fa{
+font-size:28px;
+margin-right:5px;
+margin:auto;
+margin-top:1%;
+    
+}
+logo{
+    
+    font-size:45px;
+    margin:auto;
+}
+.logo:hover{
+    
+    font-size:35px;
+    
+    color:transparent ;
+    -webkit-background-clip:text;
+    background-image:linear-gradient(#7f00ff,#1ca7e7);
+    transition:all .2s
+}
+.logo1{
+       
+
+    margin:auto;
+    font-size:35px;
+    
+    color:black;
+    
+    
+    
+    
+}
+#flogoS{
+    background-image:url("https://icon-library.com/images/1900531-200_45732.png");
+    background-size:cover;
+    height:40px;width:40px;
+    border:.0001px solid white;
+}
+#flogoA ,  #flogoT,#flogoH ,  #flogoSE, #flogoC, #flogoAC ,   #flogoS{
+    font-size:28px;
+}
+#flogoC{
+    border:.001px solid white;
+    height:35px;width:35px;
+    background-size:cover;
+    background-image:url("https://thumbs.dreamstime.com/b/reels-logo-219165295.jpg");
+    
+}
+#flogoAC{
+background:url(https://api.sololearn.com/Uploads/Avatars/19551147.jpg);
+height:30px;
+width:30px;
+border-radius:50%;
+border:.001px solid white;
+
+background-size:cover;
+    
+    
+}
+#flogoAC:hover{
+    border:1px solid black;
+}
+
+.logo{
+    font-size:35px;
+    margin:auto;
+    margin-top:auto ;
+    color:black;
+    
+    
+}
+h1{
+    
+    font-family:  'ubuntu',sans-serif;
+}
+
+#stories{
+    border:0px solid grey;
+    height:70px;
+    width:100%;
+    margin-top:-5px;
+    border-bottom:.3px solid grey;
+    display:flex;
+    
+}
+.story{
+    border:1px solid limegreen;
+    margin:auto;
+    
+    border-radius:50%;
+    height:50px;
+    width:50px;
+}
+#post_image{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/ui-ux-resume-cv-template_94422-99-1.jpg?alt=media&token=a083f31d-5e3c-456b-8055-04b82a0026cd);
+    background-size:cover;
+    border:1px solid red;
+    height:50px;width:50px;
+    background-color:red;
+    border-radius:50%;
+}
+h3{
+margin:auto;
+
+    margin-left:3%;
+}
+#about_post{
+    display:flex;
+    justify-content:space-around;
+    margin:2%;
+}
+.post{
+    width:100%;
+    margin-top:50px;
+}
+#follow_post{
+    border:3px solid #458eff;
+    font-size:20px;
+    border-radius:4px;
+    margin:auto ;
+    background-color:#458eff;
+    font-weight:bold;
+
+    color:white;
+}
+#post_ellips{
+    margin:auto;
+}
+#like_section{
+    display:flex;
+
+    margin:auto ;
+}
+.likes_icon{
+    margin:auto ;
+    margin-right:10px;
+    
+    
+}
+img{
+    
+    border-top:.5px solid black;
+    color:red;
+    margin-top:1%;
+    width:100%;
+    height:350px;
+    
+}
+#create{
+    border:1px solid white;
+    height:300px;width:100%;
+    text-align:center ;
+    background-color:white;
+    bottom:0;
+    box-shadow:-4px -4px 6px 1px grey;
+    position:fixed;
+    border-radius:38px 43px 0px 0px;
+}
+
+ul{
+    margin:auto;
+}
+
+
+
+.undrer_create{
+    margin:5%;
+    border-bottom:1px solid black;
+    border-bottom-width:100%;
+}
+
+</style>
+
+    
+    <script>
+      var pr= window.pageYOffset;
+window.onscroll= function(){
+    var a=window.pageYOffset;
+    if (pr>a){
+                    
+                   document.getElementById("NavBottom").style="bottom:0px;"        
+         document.getElementById("NavTop").style="top:0px;"        
+   document.getElementById("profile_top_nav").style="border-bottom:0px solid black;"                          
+                 
+    }
+    else if(pr<a && pr>7){
+                      
+           document.getElementById("NavBottom").style="border-top-color:red;"
+             document.getElementById("NavBottom").style="box-shadow:1px 0px 1px 0px grey;"
+                    document.getElementById("NavTop").style="border-bottom-color:grey;"      
+                     document.getElementById("NavBottom").style="bottom:0px;"        
+       document.getElementById("profile_top_nav").style="border-bottom:.3px solid black;"                  
+                      
+    }
+    pr=a;
+}
+//tabs changing 
+function tabs(tabc) {
+    var i;
+    var tabs = document.getElementsByClassName("tabsc");
+    for (i = 0; i < tabs.length; i++) {    var logos = document.getElementsByClassName("logo");
+       tabs[i].style.display = "none";  
+    }
+    document.getElementById(tabc).style.display = "block";  
+}
+//tab active
+  
+    </script>
+    
+        
     
     
     
