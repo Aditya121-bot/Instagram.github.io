@@ -12,14 +12,15 @@
     <head>
         <title>Instagram:Aditya_Programmer</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
         <script src="https://raw.githack.com/BartikaKumar/Popify/main/script.js"></script>
       
          <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-        
+          <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     
-    <body onload="checkCookie()">
+    <body>
      
              <div id="home" class="tabsc">
         <!--TopNavigation-->
@@ -107,11 +108,15 @@ favorite
         
         <div id="likes_notification">
             
-            <h1>Activity</h1>
+            <div id="notification_tab"><h3 id="notification_tab_text">Activity</h3></div>
+       <div id="notify_cotainer">
+       
+           <h3 style="font-size:20px;">Today</h3>
+                
             <div class="notification">
-                <div class="notify_img"></div>
+                <div class="notify_img" id="notify_sha"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Aditya_pro</span> Liked your post</p>
+                    <p><span class="notify_name">Shraddhakapoor</span> Started following you</p>
                     <p class="notify_time">1 hour ago</p>
                 </div>
                 
@@ -119,60 +124,154 @@ favorite
             
             
                  <div class="notification">
-                <div class="notify_img"></div>
+                <div class="notify_img" id="notify_cri"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Aditya_pro</span> Liked your post</p>
-                    <p class="notify_time">1 hour ago</p>
+                    <p><span class="notify_name">Cristiano </span>  Started to you following</p>
+                    <p class="notify_time">3 hour ago</p>
                </div>
-                <div class="notify_img">
-               </div> 
-               
+                
                 </div>
+                
+                
+                
+                
+            
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_zen"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">Zendaya </span> Started follwing you</p>
+                    <p class="notify_time">5 hour ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_tom"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name"  >Tom holland</span>Started following you</p>
+                    <p class="notify_time">15 hour ago</p>
+               </div>
+                
+                </div>
+                
+                
+                <h3 style="font-size:20px;">Earlier</h3>
+                
+                
+                <div class="notification">
+                <div class="notify_img" id="notify_priyanka"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">priyanka chopra</span> Liked your post</p>
+                    <p class="notify_time">2 week ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_virat"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">virat.kohli</span> Started following you</p>
+                    <p class="notify_time">3 week ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                <h3 style="font-size:20px;">Last Month</h3>
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_rock"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name">therock</span> Started following you</p>
+                    <p class="notify_time">5 week ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_leo"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name" >leomessi</span> Liked your photo</p>
+                    <p class="notify_time">4 week ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_avneet"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name" >Avneet Kaur </span>Started live video</p>
+                    <p class="notify_time"> 4 week ago</p>
+               </div>
+                
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                 <div class="notification">
+                <div class="notify_img" id="notify_sha"></div>
+                <div class="notify_text">
+                    <p><span class="notify_name" >Shraddhakapoor</span>  Liked your post</p>
+                    <p class="notify_time">3 week ago</p>
+               </div>
+                
+                </div>
+                
+                </div>
+                <br><br><br>
+                
+                                
+                
+                
                    
                   <!--notify under
 end -->
             
         </div>
         
-        <style>
-            .notification{
-                display:flex;
-                margin:auto;
-                width:350px;
-                padding:5px ;
-            }
-.notify_time{
-    opacity:.5;
-}
-.notify_img {
-    border:.4px solid grey;
-    height:50px;width:50px;
-    border-radius:50%;
-    margin:1%;
-    margin-top:auto ;
-    
-}
-.notify_img,.notify_text{
-    margin:1%;
-    margin-top:auto;
-    color:black;
-}
-
-
-.notify_name{
-font-weight:bold;
-color:black;
-
-
-}
-        </style>
-      
-      
+       
 </div>
 <!-- notification end -->
 <!-- search-->
 <div id="search"  class="tabsc" style="display:none">
-    <h1>SEARCH</h1>
+    <div id="search_nav">
+        <div id="inside_search">
+         <span id="flogoSearch"  class="material-icons">
+search 
+</span>
+ <form action="https://www.instagram.com/search/" method="GET">
+        
+    <input autocomplete="off" name="q" type="search" placeholder="Search">
+        
+        </form>
+     
+            <!--inside search -->
+        </div>
+        <!--search nav end-->
+    </div>
+    <!--search div-->
 </div>
 
         <!-- create -->
@@ -187,9 +286,9 @@ color:black;
        <span id="lock" class="material-icons">
 lock
 </span>
-           <h2 id="user_id_name">aditya.progra...</h2>
+           <h2 id="user_id_name">aditya.progra..</h2>
          
-            
+            <div class="verify_icon"></div>
            <i id="upload_post" class=" fa fa-plus"></i>
          <span id="profile_setting_menu"class=" material-icons">menu</span>
         
@@ -203,9 +302,9 @@ lock
            
            <div id="followings">
               <div class="fllw_fllng" id="post"><h4>100</h4><span>Post</span></div>
-               <div class="fllw_fllng" id="post"><h4>350M</h4><span>Followers</span></div>
-            <div class="fllw_fllng" id="following"><h4>200</h4><span>
-            Followings</span></div>    
+               <div class="fllw_fllng" id="post"><h4>350M</h4><span>Follow...</span></div>
+            <div class="fllw_fllng" id="following"><h4>220</h4><span>
+            Follow...</span></div>    
            </div      
        </div>
        
@@ -245,6 +344,8 @@ lock
                       <!--first icon-->
                    <div class="story_hightligh_icon"></div>
                      <!--first icon-->
+                      <div class="story_hightligh_icon"></div>
+                     <!--first icon-->
                    <div class="story_hightligh_icon"></div>
                    
                               
@@ -253,113 +354,28 @@ lock
         <!-- bio , story highlights end -->          
                  
                  
+                 <div id="post_feed">
                  
-            <h1><p>her</p>dlud
-vig</h1>
-         <style>
-             #profile_top_nav{
-    
-    height:45px;width:100%;
-    position:fixed;
-    text-align:center ;
-    
-    background-color:white;
-    display:flex;
-    
-    
-}
-#user_id_name,#upload_post,#profile_setting_menu,#lock{
-    margin:auto; 
-}
-#lock{
-    margin-left:-1px;
-}
-#user_id_name{
-    margin-left:-25px;
-    font-weight:bolder;
-}
-#profile_setting_menu{
-    margin-righ:1px;
-    float:right ;
-}
-#upload_post{
-    margin-right:-20px;
+                 <div class="post_feeds" id="post_feed1"></div>
+                 <div class="post_feeds" id="post_feed2"></div>
+                 <div class="post_feeds" id="post_feed3"></div>
+                 <div class="post_feeds" id="post_feed4"></div>
+                 <div class="post_feeds" id="post_feed5"></div>
+                 <div class="post_feeds" id="post_feed6"></div>
+                 
+            <div class="post_feeds" id="post_feed7"></div>
+                 <div class="post_feeds" id="post_feed8"></div>
+                 <div class="post_feeds" id="post_feed9"></div>     
+                  <div class="post_feeds" id="post_feed10"></div>
+                 <div class="post_feeds" id="post_feed11"></div>
+                 <div class="post_feeds" id="post_feed12"></div>    
+                 
+                  
+        </div>
+                 <br><br><br>
+            <!--post_feed_div-->
         
-}
-#user_image_following{
-    height:100px;
-    border:0px solid black;
-    display:flex;
-}
-
-#user_profile_img{
-    height:90px;width:90px;
-    border:.001px solid grey;
-    margin:auto;
-    border-radius:50%;
-    margin-left:10px;
-}
-
-#followings{
-    display:flex;
-    margin:auto;
-    justify-content:space-around;
-    text-align:center ;
-    
-}
-.fllw_fllng{
-    margin:10px;
-    margin-top:auto ;
-}
-#user_bio{
-    margin:3%;
-    color:black;
-}
-
-#edit_profile{
-    border:1px solid grey ;
-    opacity:1;
-    height:30px;
-    margin-top:10px;
-    text-align:center ;
-    border-radius:5px;
-    display:grid;
-}
-#story_highlights{
-    margin-top:15px;
-    margin:10px;
-}
-.story_hightligh_icon{
-    height:60px;width:60px;
-    border:1px solid white;
-    opacity:.4;
-    display:grid;
-    background-color:grey;
-    margin-left:10px;
-    margin-top:10px;
-    border-radius:50%;
-}
-.story_hightligh_icon_add{
-height:60px;width:60px;
-    border:1px solid black;
-    display:grid;
-
-    margin-left:10px;
-    margin-top:10px;
-    border-radius:50%;
-}
-#add_strory_h{
-    display:grid;
-    margin:auto ;
-}
-#story_icon_container{
-    display:flex;
-    height:60px;
-    
-}
-
-         </style>
-        
+         
    </div>
         <!-- Start bottomNavigation-->
         <div id="NavBottom">
@@ -392,331 +408,7 @@ favorite_border
     
     
     
-    <script>
-function setCookie(cname,cvalue,exdays) {
-  const d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires=" + d.toGMTString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-  let name = cname + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i < ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function checkCookie() {
-  let user = getCookie("username");
-  if (user != "") {
-    alert("Welcome Again " + user);
-  } else {
-     user = prompt("Please enter your name:","");
-     if (user != "" && user != null) {
-       setCookie("username", user, 30);
-     }
-  }
-}
-</script>
-
-
-
-<style>
-    
-
- @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');       
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
-
-
-
-.active{
-    color:red;
-}
-
-body {
-    
-    
-}
-*{
-    box-sizing:border-box ;
-    margin:0;
-    padding:0;
-}
-
-#NavTop{
-    
-    border:0px solid white;
-    height:45px;
-    justify-content:flex-end;
-    display:flex;
-    
-    background-color:white;
-    border-bottom-color:white;
-    border-bottom-width:1px;
-    width:100%;
-    
-    transition:all .5s;
-    top:0;
-    position:fixed;
-    }
-
-#NavBottom{
-    
-    border:0px solid white;
-    height:40px;
-    background-color:white;
-    display:flex;
-    border-top-width:1px;
-    width:100%;
- box-shadow:2px 2px 2px 2px grey;      
-    transition:all .5s;
-    bottom:0;
-    position:fixed;
-    
-}
-#logo_name{
-    margin:auto;
-    margin-left:2%;
-    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png);
-    background-size:cover;
-    width:120px;
-    height:40px;
-
-}
-
-
-
-
-.logo1:hover{
-    
-    font-size:31px;
-    
-    color:transparent ;
-    -webkit-background-clip:text;
-    background-image:linear-gradient(#7f00ff,#1ca7e7);
-    transition:all .2s;
-}
-.fa{
-font-size:28px;
-margin-right:5px;
-margin:auto;
-margin-top:1%;
-    
-}
-logo{
-    
-    font-size:45px;
-    margin:auto;
-}
-.logo:hover{
-    
-    font-size:35px;
-    
-    color:transparent ;
-    -webkit-background-clip:text;
-    background-image:linear-gradient(#7f00ff,#1ca7e7);
-    transition:all .2s
-}
-.logo1{
-       
-
-    margin:auto;
-    font-size:35px;
-    
-    color:black;
-    
-    
-    
-    
-}
-#flogoS{
-    background-image:url("https://icon-library.com/images/1900531-200_45732.png");
-    background-size:cover;
-    height:40px;width:40px;
-    border:.0001px solid white;
-}
-#flogoA ,  #flogoT,#flogoH ,  #flogoSE, #flogoC, #flogoAC ,   #flogoS{
-    font-size:28px;
-}
-#flogoC{
-    border:.001px solid white;
-    height:35px;width:35px;
-    background-size:cover;
-    background-image:url("https://thumbs.dreamstime.com/b/reels-logo-219165295.jpg");
-    
-}
-#flogoAC{
-background:url(https://api.sololearn.com/Uploads/Avatars/19551147.jpg);
-height:30px;
-width:30px;
-border-radius:50%;
-border:.001px solid white;
-
-background-size:cover;
-    
-    
-}
-#flogoAC:hover{
-    border:1px solid black;
-}
-
-.logo{
-    font-size:35px;
-    margin:auto;
-    margin-top:auto ;
-    color:black;
-    
-    
-}
-h1{
-    
-    font-family:  'ubuntu',sans-serif;
-}
-
-#stories{
-    border:0px solid grey;
-    height:70px;
-    width:100%;
-    margin-top:-5px;
-    border-bottom:.3px solid grey;
-    display:flex;
-    
-}
-.story{
-    border:1px solid limegreen;
-    margin:auto;
-    
-    border-radius:50%;
-    height:50px;
-    width:50px;
-}
-#post_image{
-    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/ui-ux-resume-cv-template_94422-99-1.jpg?alt=media&token=a083f31d-5e3c-456b-8055-04b82a0026cd);
-    background-size:cover;
-    border:1px solid red;
-    height:50px;width:50px;
-    background-color:red;
-    border-radius:50%;
-}
-h3{
-margin:auto;
-
-    margin-left:3%;
-}
-#about_post{
-    display:flex;
-    justify-content:space-around;
-    margin:2%;
-}
-.post{
-    width:100%;
-    margin-top:50px;
-}
-#follow_post{
-    border:3px solid #458eff;
-    font-size:20px;
-    border-radius:4px;
-    margin:auto ;
-    background-color:#458eff;
-    font-weight:bold;
-
-    color:white;
-}
-#post_ellips{
-    margin:auto;
-}
-#like_section{
-    display:flex;
-
-    margin:auto ;
-}
-.likes_icon{
-    margin:auto ;
-    margin-right:10px;
-    
-    
-}
-img{
-    
-    border-top:.5px solid black;
-    color:red;
-    margin-top:1%;
-    width:100%;
-    height:350px;
-    
-}
-#create{
-    border:1px solid white;
-    height:300px;width:100%;
-    text-align:center ;
-    background-color:white;
-    bottom:0;
-    box-shadow:-4px -4px 6px 1px grey;
-    position:fixed;
-    border-radius:38px 43px 0px 0px;
-}
-
-ul{
-    margin:auto;
-}
-
-
-
-.undrer_create{
-    margin:5%;
-    border-bottom:1px solid black;
-    border-bottom-width:100%;
-}
-
-</style>
-
-    
-    <script>
-      var pr= window.pageYOffset;
-window.onscroll= function(){
-    var a=window.pageYOffset;
-    if (pr>a){
-                    
-                   document.getElementById("NavBottom").style="bottom:0px;"        
-         document.getElementById("NavTop").style="top:0px;"        
-   document.getElementById("profile_top_nav").style="border-bottom:0px solid black;"                          
-                 
-    }
-    else if(pr<a && pr>7){
-                      
-           document.getElementById("NavBottom").style="border-top-color:red;"
-             document.getElementById("NavBottom").style="box-shadow:1px 0px 1px 0px grey;"
-                    document.getElementById("NavTop").style="border-bottom-color:grey;"      
-                     document.getElementById("NavBottom").style="bottom:0px;"        
-       document.getElementById("profile_top_nav").style="border-bottom:.3px solid black;"                  
-                      
-    }
-    pr=a;
-}
-//tabs changing 
-function tabs(tabc) {
-    var i;
-    var tabs = document.getElementsByClassName("tabsc");
-    for (i = 0; i < tabs.length; i++) {    var logos = document.getElementsByClassName("logo");
-       tabs[i].style.display = "none";  
-    }
-    document.getElementById(tabc).style.display = "block";  
-}
-//tab active
-  
-    </script>
-    
-        
+ 
     
     
     
