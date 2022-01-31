@@ -2,7 +2,7 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');       
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@600&family=Patrick+Hand&family=Permanent+Marker&family=Roboto&family=Rock+3D&family=Secular+One&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
 
 
 .active{
@@ -17,6 +17,7 @@ body {
     box-sizing:border-box ;
     margin:0;
     padding:0;
+font-family: 'Roboto', sans-serif;
 }
 
 #NavTop{
