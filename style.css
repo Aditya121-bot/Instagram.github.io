@@ -1,0 +1,572 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');       
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
+
+
+
+.active{
+    color:red;
+}
+
+body {
+    
+    
+}
+*{
+    box-sizing:border-box ;
+    margin:0;
+    padding:0;
+}
+
+#NavTop{
+    
+    border:0px solid white;
+    height:45px;
+    justify-content:flex-end;
+    display:flex;
+    
+    background-color:white;
+    border-bottom-color:white;
+    border-bottom-width:.01px;
+    width:100%;
+    transition:all .1s;
+    top:0;
+    position:fixed;
+    }
+
+#NavBottom{
+    
+    border:0px solid white;
+    height:40px;
+    background-color:white;
+    display:flex;
+    border-top-width:1px;
+    width:100%;
+ box-shadow:2px 2px 2px 2px grey;      
+    transition:all .5s;
+    bottom:0;
+    position:fixed;
+    
+}
+#logo_name{
+    margin:auto;
+    margin-left:2%;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png);
+    background-size:cover;
+    width:120px;
+    height:40px;
+
+}
+
+
+
+
+.logo1:hover{
+    
+    font-size:31px;
+    
+    color:transparent ;
+    -webkit-background-clip:text;
+    background-image:linear-gradient(#7f00ff,#1ca7e7);
+    transition:all .2s;
+}
+.fa{
+font-size:28px;
+margin-right:5px;
+margin:auto;
+margin-top:1%;
+    
+}
+logo{
+    
+    font-size:45px;
+    margin:auto;
+}
+.logo:hover{
+    
+    font-size:35px;
+    
+    color:transparent ;
+    -webkit-background-clip:text;
+    background-image:linear-gradient(#7f00ff,#1ca7e7);
+    transition:all .2s
+}
+.logo1{
+       
+
+    margin:auto;
+    font-size:35px;
+    
+    color:black;
+    
+    
+    
+    
+}
+#flogoS{
+    background-image:url("https://cdn-icons-png.flaticon.com/128/1532/1532430.png");
+    background-size:cover;
+    height:25px;width:25px;
+    border:.0001px solid white;
+}
+#flogoA ,  #flogoT,#flogoH ,  #flogoSE, #flogoC, #flogoAC ,   #flogoS{
+    font-size:28px;
+}
+#flogoC{
+    border:.001px solid white;
+    height:35px;width:35px;
+    background-size:cover;
+    background-image:url("https://thumbs.dreamstime.com/b/reels-logo-219165295.jpg");
+    
+}
+#flogoAC{
+background:url(https://api.sololearn.com/Uploads/Avatars/19551147.jpg);
+height:30px;
+width:30px;
+border-radius:50%;
+border:.001px solid white;
+
+background-size:cover;
+    
+    
+}
+#flogoAC:hover{
+    border:1px solid black;
+}
+
+.logo{
+    font-size:35px;
+    margin:auto;
+    margin-top:auto ;
+    color:black;
+    
+    
+}
+h1{
+    
+    font-family:  'ubuntu',sans-serif;
+}
+
+#stories{
+    border:0px solid grey;
+    height:110px;
+    width:100%;
+    margin-top:-20px;
+    border-bottom:.3px solid grey;
+    display:flex;
+    
+}
+.story{
+    border:1px solid limegreen;
+    margin:auto;
+    margin-top:15px;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+}
+#post_image{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/ui-ux-resume-cv-template_94422-99-1.jpg?alt=media&token=a083f31d-5e3c-456b-8055-04b82a0026cd);
+    background-size:cover;
+    border:1px solid red;
+    height:50px;width:50px;
+    background-color:red;
+    border-radius:50%;
+}
+h3{
+margin:auto;
+
+    margin-left:3%;
+}
+#about_post{
+    display:flex;
+    justify-content:space-around;
+    margin:2%;
+}
+.post{
+    width:100%;
+    margin-top:50px;
+}
+#follow_post{
+    border:3px solid #458eff;
+    font-size:20px;
+    border-radius:4px;
+    margin:auto ;
+    background-color:#458eff;
+    font-weight:bold;
+
+    color:white;
+}
+#post_ellips{
+    margin:auto;
+}
+#like_section{
+    display:flex;
+
+    margin:auto ;
+}
+.likes_icon{
+    margin:auto ;
+    margin-right:10px;
+    
+    
+}
+img{
+    
+    border-top:.5px solid black;
+    color:red;
+    margin-top:1%;
+    width:100%;
+    height:350px;
+    
+}
+#create{
+    border:1px solid white;
+    height:300px;width:100%;
+    text-align:center ;
+    background-color:white;
+    bottom:0;
+    box-shadow:-4px -4px 6px 1px grey;
+    position:fixed;
+    border-radius:38px 43px 0px 0px;
+}
+
+ul{
+    margin:auto;
+}
+
+
+
+.undrer_create{
+    margin:5%;
+    border-bottom:1px solid black;
+    border-bottom-width:100%;
+}
+
+
+/**Notification**/
+ 
+        
+        #notification_tab{
+            height:50px;
+            width:100%;
+            top:0;
+            position:fixed;
+            background-color:white;
+        }
+        
+         #notification_tab_text{
+            
+             margin:2%;
+             font-weight:800;
+             font-size:30px;
+         }
+        #notify_cotainer{
+            margin-top:50px;
+        }
+            .notification{
+                display:flex;
+                margin:auto;
+                width:350px;
+                padding:5px ;
+        
+            }
+.notify_time{
+    color:#c8c8c8;
+}
+.notify_img {
+    border:.4px solid grey;
+    height:50px;width:50px;
+    border-radius:50%;
+    margin-left:5px;
+    margin-top:auto ;
+    
+}
+.notify_img{
+    margin:1%;
+    margin-top:auto;
+    flex-wrap:wrap;
+    color:black;
+}
+
+.notify_text{
+    margin-left:2%;
+    margin-top:auto;
+    flex-wrap:wrap;
+    color:black;
+}
+.notify_name{
+flex-wrap:wrap;
+font-weight:bold;
+color:black;
+margin:1% ;
+
+
+}
+
+
+#notify_cri{
+    background:url(https://i.pinimg.com/474x/ba/0e/05/ba0e0576363c7fadd498508406511f32.jpg);
+    background-size:cover;
+}
+#notify_leo{
+    background:url(https://www.fcbarcelona.com/photo-resources/2020/02/15/c9bf7f93-0b10-44cd-85d3-c4e31a6b24ff/mini_2020-02-15_FCBvsGETAFE_15.jpg?width=960&height=960);
+    background-size:cover;
+}
+#notify_avneet{
+    background:url(https://storage.googleapis.com/livepitch_new/1b64b34572e8c232f4cb628a78317f31.jpg);
+    background-size:cover;
+}
+#notify_rock{
+    background:url(https://cdn.socialtracker.io/avatars/instagram/therock.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=LTKEBXSTRDNP24K3AGAB%2F20220130%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20220130T194523Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=abe70d9a038474feb89e3d84817c2eac4540b86b5af723d4c9084a53bcd5eefd);
+    background-size:cover;
+}
+#notify_zen{
+    background:url(https://media.gettyimages.com/photos/zendaya-attends-the-bvlgari-bzero1-rock-collection-event-at-duggal-picture-id1204545842?k=20&m=1204545842&s=612x612&w=0&h=An9iKrJE-Vu38fUoqZb5h74lf5S92RTOV5eumMm7rSc=);
+    background-size:cover;
+}
+#notify_tom{
+    background:url(https://assets.teenvogue.com/photos/5988bb10e04ba21beb2a5164/1:1/w_640,c_limit/tom.jpg);
+    background-size:cover;
+}
+
+#notify_justin{
+    background:url(https://i.pinimg.com/474x/ba/0e/05/ba0e0576363c7fadd498508406511f32.jpg);
+    background-size:cover;
+}
+#notify_priyanka{
+    background:url(https://media1.popsugar-assets.com/files/thumbor/cebSOWoHKHOSsSJPSkzSPV-itS8/481x36:1933x1488/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2019/09/09/982/n/1922398/ed1a603d5d76d39f9bba65.20483920_/i/Priyanka-Chopra.jpg);
+    background-size:cover;
+}
+#notify_sha{
+    background:url(https://storage.googleapis.com/livepitch_new/d7e81d109ac55b17c057ed43c95bf65c.jpg);
+    background-size:cover;
+}
+#notify_virat{
+    background:url(https://cdn.socialtracker.io/avatars/instagram/virat.kohli.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=LTKEBXSTRDNP24K3AGAB%2F20220130%2Fams3%2Fs3%2Faws4_request&X-Amz-Date=20220130T194604Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=c90b10a0c8063a3d93453850310ef5f0a96d402aef2068deb99f27371c02183b);
+    background-size:cover;
+}
+
+    /**end notification**/
+/**profile**/
+
+             #profile_top_nav{
+    
+    height:45px;width:100%;
+    position:fixed;
+    text-align:center ;
+    justify-content:space-between;
+    background-color:white;
+    display:flex;
+    
+    
+}
+.verify_icon{
+    height:25px;width:25px;
+    border-radius:50%;
+    margin:auto;
+    margin-left:-10px;
+    background:url(https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-136617444.jpg);
+    background-size:cover;
+}
+#user_id_name,#upload_post,#profile_setting_menu,#lock{
+    margin:auto; 
+    
+}
+#lock{
+    margin-left:-1px;
+}
+#user_id_name{
+    margin-left:-25px;
+    font-weight:bolder;
+}
+#profile_setting_menu{
+    margin-righ:-10px;
+    float:right ;
+    
+}
+#upload_post{
+    margin-right:-20px;
+        
+}
+#user_image_following{
+    height:100px;
+    border:0px solid black;
+    display:flex;
+}
+
+#user_profile_img{
+    height:90px;width:90px;
+    border:.001px solid grey;
+    margin:auto;
+    background:url(https://api.sololearn.com/Uploads/Avatars/19551147.jpg);
+background-size:cover;
+    border-radius:50%;
+    margin-left:10px;
+}
+
+#followings{
+    display:flex;
+    margin:auto;
+    justify-content:space-around;
+    text-align:center ;
+    
+}
+.fllw_fllng{
+    margin:10px;
+    margin-top:auto ;
+}
+#user_bio{
+    margin:3%;
+    color:black;
+}
+
+#edit_profile{
+    border:1px solid grey ;
+    opacity:1;
+    height:30px;
+    margin-top:10px;
+    text-align:center ;
+    border-radius:5px;
+    display:grid;
+}
+#story_highlights{
+    margin-top:15px;
+    margin:10px;
+}
+.story_hightligh_icon{
+    height:60px;width:60px;
+    border:1px solid white;
+    opacity:.2;
+    display:grid;
+    background-color:grey;
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:50%;
+}
+.story_hightligh_icon_add{
+height:60px;width:60px;
+    border:1px solid black;
+    display:grid;
+
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:50%;
+}
+#add_strory_h{
+    display:grid;
+    margin:auto ;
+}
+#story_icon_container{
+    display:flex;
+    height:60px;
+    
+}
+
+#post_feed{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+.post_feeds{
+    height:110px;width:115px;
+    border:.1px solid white;
+    margin:1.5px;
+    background-color:#c8c8c8;
+
+    
+}       
+
+#post_feed1{
+    background:url(https://images.pexels.com/photos/1062175/pexels-photo-1062175.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+
+#post_feed2{
+    background:url(https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+#post_feed3{
+    background:url(https://images.pexels.com/photos/1586298/pexels-photo-1586298.jpeg?auto=compress&cs=tinysrgb&w=300);
+    background-size:cover;
+}
+
+#post_feed4{
+    background:url(https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&w=300);
+    background-size:cover;
+}
+#post_feed5{
+    background:url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+
+#post_feed6{
+    background:url(https://images.pexels.com/photos/358532/pexels-photo-358532.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+
+#post_feed7{
+    background:url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size:cover;
+}
+
+#post_feed8{
+    background:url(https://images.pexels.com/photos/458917/pexels-photo-458917.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+
+#post_feed9{
+    background:url(https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
+    background-size:cover;
+}
+
+#post_feed10{
+    background:url(https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__480.jpg);
+    background-size:cover;
+}
+
+#post_feed11{
+    background:url(https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175__480.jpg);
+    background-size:cover;
+}
+#post_feed12{
+    background:url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg);
+    background-size:cover;
+}
+
+        /**profile end**/
+        
+        /**Search**/
+        
+#inside_search{
+    height:41px;width:93%;
+    border:1px solid #eaeaea;
+    background-color:#eaeaea;
+    border-radius:7px;
+    margin:auto ;
+    display:flex;
+} 
+#flogoSearch{
+    margin:auto;
+    margin-top:auto;
+    margin-left:10px;
+}
+input[type="search"]{
+    outline:none;
+    height:40px;width:100%;
+    border-radius:7px;
+    font-size:20px;
+    margin-left:-5px;
+    font-weight:500;
+    color:black;
+    background-color:#eaeaea;
+    border:.5px solid #eaeaea;
+}
+#search_nav{
+    height:70px;width:100%;
+    display:grid;
+    position:fixed;
+    background-color:white;
+}
+      
