@@ -1,8 +1,10 @@
 
 
- @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');       
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); 
+ 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@600&family=Patrick+Hand&family=Permanent+Marker&family=Roboto&family=Rock+3D&family=Secular+One&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Lobster&family=Oswald:wght@600&family=Rock+3D&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap');
+
 
 
 .active{
@@ -17,7 +19,7 @@ body {
     box-sizing:border-box ;
     margin:0;
     padding:0;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #NavTop{
@@ -29,7 +31,7 @@ font-family: 'Roboto', sans-serif;
     
     background-color:white;
     border-bottom-color:white;
-    border-bottom-width:.01px;
+    border-bottom-width:.7px;
     width:100%;
     transition:all .1s;
     top:0;
@@ -84,15 +86,7 @@ logo{
     font-size:45px;
     margin:auto;
 }
-.logo:hover{
-    
-    font-size:35px;
-    
-    color:transparent ;
-    -webkit-background-clip:text;
-    background-image:linear-gradient(#7f00ff,#1ca7e7);
-    transition:all .2s
-}
+
 .logo1{
        
 
@@ -120,6 +114,10 @@ logo{
     background-size:cover;
     background-image:url("https://thumbs.dreamstime.com/b/reels-logo-219165295.jpg");
     
+}
+#flogoSE:hover{
+    color:black;
+    font-size:30px;
 }
 #flogoAC{
 background:url(https://api.sololearn.com/Uploads/Avatars/19551147.jpg);
@@ -166,14 +164,7 @@ h1{
     height:60px;
     width:60px;
 }
-#post_image{
-    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/ui-ux-resume-cv-template_94422-99-1.jpg?alt=media&token=a083f31d-5e3c-456b-8055-04b82a0026cd);
-    background-size:cover;
-    border:1px solid red;
-    height:50px;width:50px;
-    background-color:red;
-    border-radius:50%;
-}
+
 h3{
 margin:auto;
 
@@ -184,34 +175,7 @@ margin:auto;
     justify-content:space-around;
     margin:2%;
 }
-.post{
-    width:100%;
-    margin-top:50px;
-}
-#follow_post{
-    border:3px solid #458eff;
-    font-size:20px;
-    border-radius:4px;
-    margin:auto ;
-    background-color:#458eff;
-    font-weight:bold;
 
-    color:white;
-}
-#post_ellips{
-    margin:auto;
-}
-#like_section{
-    display:flex;
-
-    margin:auto ;
-}
-.likes_icon{
-    margin:auto ;
-    margin-right:10px;
-    
-    
-}
 img{
     
     border-top:.5px solid black;
@@ -245,6 +209,326 @@ ul{
 }
 
 
+
+
+
+/*
+shradha--https://www.filmibeat.com/imgm/500x50/2021/10/shraddha-kapoor_16348818502.jpg
+shradha2--https://www.filmibeat.com/imgm/500x50/2021/10/shraddha-kapoor_16348818503.jpg
+
+zendaya--https://media.gettyimages.com/photos/zendaya-attends-the-71st-emmy-awards-at-microsoft-theater-on-22-2019-picture-id1176437723?k=20&m=1176437723&s=612x612&w=0&h=Sje-wfBishnvkfUCGnRsdEB5T1ygn0NHuNdFSCMzOE0=
+zen2--https://media.gettyimages.com/photos/zendaya-attends-the-launch-of-solar-dream-hosted-by-fendi-on-february-picture-id1204331078?k=20&m=1204331078&s=612x612&w=0&h=xrrfa6IHsd-Zf8EgI6Cu8Lc3I3htX543CYDTOa-bC4Y=
+
+tom--https://media.gettyimages.com/photos/tom-holland-and-zendaya-attendsthe-los-angeles-premiere-of-sony-no-picture-id1358900212?k=20&m=1358900212&s=612x612&w=0&h=Jzos4nID3l0I0dAFeW6aIpFd7lFxhfRtYwjoAcF_oAQ=
+ronaldo--https://english.cdn.zeenews.com/sites/default/files/2022/01/29/1009812-ronaldo-gff.jpg
+
+avneet--https://cdn.gulte.com/wp-content/uploads/2021/04/Avneet-Kaur-Latest-Hot-Photoshoot_9-819x1024.jpg
+
+katherine--https://www.mordeo.org/files/uploads/2017/06/Katherine-Langford-Cute-Smile-HD-Mobile-Wallpaper-Preview.jpg
+kathe2--https://1.bp.blogspot.com/-FFfrqAwPHHA/XTxzquQWPgI/AAAAAAAAGEY/f7VmCoTnxU0hGbK7Kd6ifBqVhS2AK7l4wCEwYBhgL/s640/FB_IMG_1564159404798.jpg
+
+kat3--https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg
+scaret1 use in main--https://www.popsugar.com/celebrity/Sexy-Scarlett-Johansson-Pictures-46011209
+sacr2--use in profile--https://media1.popsugar-assets.com/files/thumbor/wTHLjxJtiuiyvpU63GvrityDtDg/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2020/08/28/830/n/1922398/8ffce6eef35c7425_GettyImages-1170958811/i/Sexy-Scarlett-Johansson-Pictures.jpg
+*/
+/** posth div start**/
+
+
+
+#post_ellipse_setting{
+    height:279px;width:100%;
+    position:fixed;
+    border-bottom:1px solid whitesmoke;
+    z-index:1;
+    bottom:0;
+    border-radius:12px 12px 0px 0px;
+    border:.1px solid whitesmoke;
+    background-color:white;
+}
+#ellip_logo{
+    display:flex;
+    margin-top:4%;
+}
+.cut_ellip{
+    height:5px;width:52px;
+    border-radius:10px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    align-item:center ;
+    display:grid;
+    background-color:grey;
+    border:1px solid grey;
+}
+#elkip1{
+    border-top:.2px solid grey;
+    margin-top:5%;
+    height:50px;
+    border-bottom:.2px solid grey;
+}
+.elkip{
+    margin-left:3%;
+    font-size:20px;
+    font-weight:500;
+    margin-top:auto;
+    margin-top:4%;
+    
+}
+.ellipe_logos{
+    height:56px;width:56px;
+    border:1px solid black;
+    margin:auto;
+    border-radius:50%;
+}
+#elName{
+    display:flex;
+    margin-top:2%;
+}
+.elNc{
+    margin:auto;
+    font-size:19px;
+    font-weight:600;
+    margin-top:5px;
+}
+.profileNameC,.postProfileImgC,.postEllipse{
+    margin:auto;
+}
+
+.postEllipse{
+    margin-right:1%;
+}
+.fa{
+    font-size:26px;
+}
+.profileNameC{
+    margin-left:-10%;
+    font-size:18px;
+    font-weight:600;
+}
+.postName{
+    display:flex;
+    width:100%;
+    border-bottom:.1px solid black;
+    height:60px;
+    
+}
+.postProfileImgC{
+    height:40px;width:40px;
+    margin-left:2%;
+    border:.1px solid black;
+    border-radius:50%;
+}
+.postmainImgC{
+    height:350px;width:100%;
+    background-color:white;
+}
+
+.postlikeHeart,.postlikeComment,.postlikeSend,.postlikeBookmark{
+    margin:auto;
+    font-size:29px;
+}
+.postlikeComment{
+    background-image:url(https://cdn.iconscout.com/icon/free/png-512/comment-3251596-2724645.png);
+    height:29px;width:29px;
+    margin-top:-1px;
+    background-size:cover;
+}
+.setMglike{
+    width:150px;
+    display:flex;
+}
+#postmainImg1{
+       background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_151915.jpg?alt=media&token=7e8c1f0d-5220-4bb0-977e-236857ff510b);
+background-size:cover;
+}
+#postmainImg2{
+       background:url(https://cdn.gulte.com/wp-content/uploads/2021/04/Avneet-Kaur-Latest-Hot-Photoshoot_9-819x1024.jpg
+);
+background-size:cover;
+}
+#postmainImg3{
+    background:url(   https://1.bp.blogspot.com/-FFfrqAwPHHA/XTxzquQWPgI/AAAAAAAAGEY/f7VmCoTnxU0hGbK7Kd6ifBqVhS2AK7l4wCEwYBhgL/s640/FB_IMG_1564159404798.jpg);
+  background-size:cover;
+}
+#postmainImg4{
+    background:url(https://www.filmibeat.com/imgm/500x50/2021/10/shraddha-kapoor_16348818502.jpg );
+  background-size:cover;
+}
+
+#postmainImg5{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_152048.jpg?alt=media&token=6e54b543-1c56-4952-a308-0b464946e647);
+  background-size:cover;
+}
+#postmainImg7{
+    background:url(   https://1.bp.blogspot.com/-FFfrqAwPHHA/XTxzquQWPgI/AAAAAAAAGEY/f7VmCoTnxU0hGbK7Kd6ifBqVhS2AK7l4wCEwYBhgL/s640/FB_IMG_1564159404798.jpg);
+  background-size:cover;
+}
+#postmainImg6{
+    background:url(   https://hollywoodlife.com/wp-content/uploads/2014/07/selena-gomez-bikini-orange-backgrid.jpg?w=700&h=990&crop=1);
+  background-size:cover;
+}
+
+
+#postmainImg8{
+    
+    background:url(https://media1.popsugar-assets.com/files/thumbor/_YSsAGQE9G4g-h785zAaR-QmOo4/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/04/09/880/n/1922398/580f999be43b7bb6_GettyImages-50923412/i/Sexy-Scarlett-Johansson-Pictures.jpg);
+  background-size:cover;
+}
+
+
+#postmainImg9{
+    background:url(  https://media1.popsugar-assets.com/files/thumbor/TA52hB-wvvW57p7fO1FLg95ZLRc/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/23/664/n/1922398/a1e402a80756b3dd_GettyImages-981637910/i/Sexy-Taylor-Swift-Pictures.jpg
+ );
+  background-size:cover;
+}
+#postmainImg10{
+    background:url(  https://media.gettyimages.com/photos/zendaya-attends-the-launch-of-solar-dream-hosted-by-fendi-on-february-picture-id1204331078?k=20&m=1204331078&s=612x612&w=0&h=xrrfa6IHsd-Zf8EgI6Cu8Lc3I3htX543CYDTOa-bC4Y= );
+  background-size:cover;
+}
+/**i m post 1**/
+
+#postmainImg11{
+    background-image:url(https://i.redd.it/t542pt1wzmb71.jpg);
+       
+   background-size:cover;
+}
+
+/**i m post 1 end**/
+#postmainImg12{
+    background:url(  https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_152103.jpg?alt=media&token=22782079-c510-4a3b-b675-deb5a08e4ec7);
+  background-size:cover;
+}
+
+#postmainImg13{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_152035.jpg?alt=media&token=7a17f111-560c-491d-983c-50d9b1ea1da0
+ );
+  background-size:cover;
+}
+
+#postmainImg14{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_152017.jpg?alt=media&token=03d8d4db-dfce-4312-8fa6-12b378bc0fc0
+ );
+  background-size:cover;
+}
+
+#postmainImg15{
+    background:url(https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_152129.jpg?alt=media&token=d9971f60-c51b-4f95-b081-052332278830
+ );
+  background-size:cover;
+}
+
+
+/**postmainimg end **/
+/**profile img**/
+
+
+#postProfileImg1{
+    background-image:url(https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg);
+    background-size:cover;
+}
+
+#postProfileImg2,#postProfileImg12{
+    background-image:url(https://storage.googleapis.com/livepitch_new/1b64b34572e8c232f4cb628a78317f31.jpg);
+    background-size:cover;
+}
+
+#postProfileImg3{
+    background-image:url(https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg);
+    background-size:cover;
+}
+
+
+#postProfileImg4{
+    background-image:url(https://storage.googleapis.com/livepitch_new/d7e81d109ac55b17c057ed43c95bf65c.jpg);
+    background-size:cover;
+}
+#postProfileImg5{
+    background-image:url(https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg);
+    background-size:cover;
+}
+#postProfileImg6{
+    background-image:url(
+        https://hollywoodlife.com/wp-content/uploads/2014/07/selena-gomez-3-1.jpg?w=200&h=300&crop=1
+    );
+    background-size:cover;
+}
+
+#postProfileImg7{
+    background-image:url(
+        https://hollywoodlife.com/wp-content/uploads/2014/07/selena-gomez-3-1.jpg?w=200&h=300&crop=1
+    );
+    background-size:cover;
+}
+
+
+#postProfileImg8{
+    background:url(  https://media1.popsugar-assets.com/files/thumbor/wTHLjxJtiuiyvpU63GvrityDtDg/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2020/08/28/830/n/1922398/8ffce6eef35c7425_GettyImages-1170958811/i/Sexy-Scarlett-Johansson-Pictures.jpg);
+    background-size:cover;
+}
+
+#postProfileImg9{
+    background-image:url(
+        https://media1.popsugar-assets.com/files/thumbor/al0Hz0UFaU8poAPUUr6ufaCApyY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/23/667/n/1922398/383d9bb2450bc880_GettyImages-1170386429/i/Sexy-Taylor-Swift-Pictures.jpg
+    );
+    background-size:cover;
+}
+
+#postProfileImg10{
+    background-image:url(
+      https://media.gettyimages.com/photos/zendaya-attends-the-bvlgari-bzero1-rock-collection-event-at-duggal-picture-id1204545842?k=20&m=1204545842&s=612x612&w=0&h=An9iKrJE-Vu38fUoqZb5h74lf5S92RTOV5eumMm7rSc=
+    );
+    background-size:cover;
+}
+#postProfileImg10{
+    background-image:url(
+      https://media.gettyimages.com/photos/zendaya-attends-the-bvlgari-bzero1-rock-collection-event-at-duggal-picture-id1204545842?k=20&m=1204545842&s=612x612&w=0&h=An9iKrJE-Vu38fUoqZb5h74lf5S92RTOV5eumMm7rSc=
+    );
+    background-size:cover;
+}
+#postProfileImg11,#postProfileImg13,#postProfileImg14,#postProfileImg15,#postProfileImg1,#postProfileImg5
+{
+    background-image:url(
+      https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_151933.jpg?alt=media&token=945b07f7-bc16-426a-8824-6f3315f78d10
+    );
+    background-size:cover;
+}
+
+
+
+
+
+/**profile img end**/
+.postLikeCommentC{
+    height:35px;
+    margin:auto;
+    margin-top:2%;
+    border-bottom:0px solid green;
+    justify-content:space-between;
+    display:flex;
+}
+.postlikeBookmark{
+    margin-right:3%;
+}
+.countLike{
+    margin-left:3%;
+    margin-right:1%;
+}
+.posth{
+    height:100%;width:100%;
+    margin-top:-5px;
+    border:0px solid black;
+} 
+
+
+
+
+
+/**posth div end**/
+
+
+
+
 /**Notification**/
  
         
@@ -260,6 +544,7 @@ ul{
             
              margin:2%;
              font-weight:800;
+             flex-wrap:wrap;
              font-size:30px;
          }
         #notify_cotainer{
@@ -268,18 +553,18 @@ ul{
             .notification{
                 display:flex;
                 margin:auto;
-                width:350px;
+                width:100%;
                 padding:5px ;
         
             }
 .notify_time{
-    color:#c8c8c8;
+    color:#bebebe;
 }
 .notify_img {
     border:.4px solid grey;
     height:50px;width:50px;
     border-radius:50%;
-    margin-left:5px;
+    margin-left:4px;
     margin-top:auto ;
     
 }
@@ -291,9 +576,10 @@ ul{
 }
 
 .notify_text{
-    margin-left:2%;
+    margin-left:2.5%;
     margin-top:auto;
     flex-wrap:wrap;
+    text-transform:sentence-case;
     color:black;
 }
 .notify_name{
@@ -304,10 +590,37 @@ margin:1% ;
 
 
 }
-
-
+#notify_khaterine{
+    background:url(  https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg
+ );
+    background-size:cover;
+}
+#notify_selena{
+    
+     background-image:url(
+        https://hollywoodlife.com/wp-content/uploads/2014/07/selena-gomez-3-1.jpg?w=200&h=300&crop=1
+    );
+    background-size:cover;
+    
+}
+#notify_taylor{
+    
+    background-image:url(
+        https://media1.popsugar-assets.com/files/thumbor/al0Hz0UFaU8poAPUUr6ufaCApyY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/23/667/n/1922398/383d9bb2450bc880_GettyImages-1170386429/i/Sexy-Taylor-Swift-Pictures.jpg
+    );
+    background-size:cover;
+    
+}
+#notify_josep{
+    background:url(      https://firebasestorage.googleapis.com/v0/b/aditya-a96ba.appspot.com/o/20220221_151933.jpg?alt=media&token=945b07f7-bc16-426a-8824-6f3315f78d10);
+    background-size:cover;
+}
+#notify_scarllet{
+    background:url(https://media1.popsugar-assets.com/files/thumbor/wTHLjxJtiuiyvpU63GvrityDtDg/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2020/08/28/830/n/1922398/8ffce6eef35c7425_GettyImages-1170958811/i/Sexy-Scarlett-Johansson-Pictures.jpg);
+    background-size:cover;
+}
 #notify_cri{
-    background:url(https://i.pinimg.com/474x/ba/0e/05/ba0e0576363c7fadd498508406511f32.jpg);
+ background:url(https://i.pinimg.com/474x/ba/0e/05/ba0e0576363c7fadd498508406511f32.jpg);
     background-size:cover;
 }
 #notify_leo{
@@ -339,6 +652,10 @@ margin:1% ;
     background:url(https://media1.popsugar-assets.com/files/thumbor/cebSOWoHKHOSsSJPSkzSPV-itS8/481x36:1933x1488/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2019/09/09/982/n/1922398/ed1a603d5d76d39f9bba65.20483920_/i/Priyanka-Chopra.jpg);
     background-size:cover;
 }
+#notify_reel{
+    background:url(https://thumbs.dreamstime.com/b/reels-logo-219165295.jpg);
+    background-size:cover;
+}
 #notify_sha{
     background:url(https://storage.googleapis.com/livepitch_new/d7e81d109ac55b17c057ed43c95bf65c.jpg);
     background-size:cover;
@@ -356,6 +673,7 @@ margin:1% ;
     height:45px;width:100%;
     position:fixed;
     text-align:center ;
+    border-bottom:0.7px solid white;
     justify-content:space-between;
     background-color:white;
     display:flex;
@@ -438,9 +756,8 @@ background-size:cover;
 .story_hightligh_icon{
     height:60px;width:60px;
     border:1px solid white;
-    opacity:.2;
     display:grid;
-    background-color:grey;
+    background-color:#e7e7e7;
     margin-left:10px;
     margin-top:10px;
     border-radius:50%;
@@ -468,6 +785,8 @@ height:60px;width:60px;
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
+    margin-left:1px;
+    margin-righ:1px;
     margin-top:30px;
 }
 .post_feeds{
@@ -541,7 +860,7 @@ height:60px;width:60px;
         /**Search**/
         
 #inside_search{
-    height:41px;width:93%;
+    height:41px;width:95%;
     border:1px solid #eaeaea;
     background-color:#eaeaea;
     border-radius:7px;
@@ -549,7 +868,7 @@ height:60px;width:60px;
     display:flex;
 } 
 #flogoSearch{
-    margin:auto;
+    margin-bottom:auto;
     margin-top:auto;
     margin-left:10px;
 }
@@ -558,7 +877,7 @@ input[type="search"]{
     height:40px;width:100%;
     border-radius:7px;
     font-size:20px;
-    margin-left:-5px;
+    margin-left:8px;
     font-weight:500;
     color:black;
     background-color:#eaeaea;
@@ -568,6 +887,39 @@ input[type="search"]{
     height:70px;width:100%;
     display:grid;
     position:fixed;
+    top:-2px;
     background-color:white;
 }
-      
+#post_feedsearch{
+    flex-wrap:wrap;
+    display:flex;
+    margin-top:3px;
+    margin-left:1px;
+    margin-righ:1px;
+    justify-content:space-around;
+    overflow-y:scroll;
+}
+
+
+.verify_in_home{
+    height:22px;width:22px;
+    border-radius:50%;
+    margin:auto;
+    margin-left:-160px;
+    background:url(https://thumbs.dreamstime.com/b/approved-icon-profile-verification-accept-badge-quality-check-mark-sticker-tick-vector-illustration-136617444.jpg);
+    background-size:cover;
+    
+}
+
+/**profile setting**/
+#profile_setting{
+border:1px solid #f9f9f8;
+    height:380px;width:100%;
+    text-align:center ;
+    background-color:#f9f9f8;
+    bottom:0;
+    box-shadow:-1.5px -1.5px 2px 0.3px #d1d1d1;
+    position:fixed;
+    border-radius:8% 8% 0px 0px;
+
+}
