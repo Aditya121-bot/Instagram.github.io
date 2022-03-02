@@ -2,10 +2,10 @@
 <html lang="en">
   <meta charset="UTF-8">
     <meta name="description" content="Aditya savita">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ff7db8">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="white">
 
-  
+  <meta name="keywords" content="Web desinging,Web developer,AI,Machine learning">
   <meta name="author" content="Aditya Savita">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -918,17 +918,22 @@ send
                  </div>      
             
             
-             <div class="notification" id="user_agent">
-       
-                <b>Login on </b>
+              <div class="notification">
+                <div class="notify_img" id="notify_josep"></div>
+                <div class="notify_text" id="user_agent">
+                    <p><span class="notify_name"></p>
+                    <p class="notify_time">Just Now</p>
+                </div>
+                
             </div>      
+            
             
             
             
              <div class="notification">
                 <div class="notify_img" id="notify_josep"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Josephine  Langford  </span>   Liked your post</p>
+                    <p><span class="notify_name">Josephine  Langford  </span>   Liked your post.</p>
                     <p class="notify_time">1 hour ago</p>
                 </div>
                 
@@ -949,7 +954,7 @@ send
             <div class="notification">
                 <div class="notify_img" id="notify_sha"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Shradda.kapoor</span> Started following you</p>
+                    <p><span class="notify_name">Shradda.kapoor</span> and 5.6M other Started following you.</p>
                     <p class="notify_time">3 hour ago</p>
                 </div>
                 
@@ -960,7 +965,7 @@ send
             <div class="notification">
                 <div class="notify_img" id="notify_josep"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Josephine Langford </span> Started following you.</p>
+                    <p><span class="notify_name">Josephine Langford </span> and 3.2M other Started following you.</p>
                     <p class="notify_time">2 hour ago</p>
                 </div>
                 
@@ -971,7 +976,7 @@ send
             <div class="notification">
                 <div class="notify_img" id="notify_khaterine"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Katherine Langford</span> Started following you</p>
+                    <p><span class="notify_name">Katherine Langford</span> and 140K other Started following you</p>
                     <p class="notify_time">4  hour ago</p>
                 </div>
                 
@@ -982,7 +987,7 @@ send
             <div class="notification">
                 <div class="notify_img" id="notify_scarllet"></div>
                 <div class="notify_text">
-                    <p><span class="notify_name">Scarllet jhonsan</span> Started following you</p>
+                    <p><span class="notify_name">Scarllet jhonsan</span>  Started following you</p>
                     <p class="notify_time">13 hour ago</p>
                 </div>
                 
@@ -1676,13 +1681,15 @@ $("#postLike15").css({"color":"red","transition":".1 ease-in-out"})
     $("#postLikeBookmarkId15").html(` <i class="fa fa-bookmark"></i>`)
 })
        //15 fifteen post end
-let lg = "<b>Login By:</b>"
+   var x = Date();
+   let new_log ="An unrecognise Login by :"
+   
       let as = window.navigator.userAgent;
-     $("#user_agent").html(lg+as);
+      
+     $("#user_agent").text(new_log +               as +  "Time: "+ x);
      
      
-    
-       //post section end
+      //post section end
        
  </script>
     
