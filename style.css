@@ -18,7 +18,6 @@ body {
 *{
     box-sizing:border-box ;
     margin:0;
-    font-size:17px;
     padding:0;
     font-family: 'Roboto', sans-serif;
 }
@@ -531,9 +530,7 @@ background-size:cover;
 
 
 /**Notification**/
- 
-        
-        #notification_tab{
+#notification_tab{
             height:50px;
             width:100%;
             top:0;
@@ -543,17 +540,18 @@ background-size:cover;
         
          #notification_tab_text{
             
-             margin:2%;
+             margin:2.6%;
              font-weight:800;
              flex-wrap:wrap;
-             font-size:30px;
+             font-size:28px;
          }
         #notify_cotainer{
             margin-top:50px;
         }
-            .notification{
-                display:flex;
+          .notification{
+             display:flex;
                 margin:auto;
+                
                 width:100%;
                 padding:5px ;
         
@@ -565,31 +563,38 @@ background-size:cover;
     border:.4px solid grey;
     height:50px;width:50px;
     border-radius:50%;
-    margin-left:4px;
-    margin-top:auto ;
+    margin:auto;
     
 }
-.notify_img{
-    margin:1%;
-    margin-top:auto;
-    flex-wrap:wrap;
-    color:black;
-}
+
 
 .notify_text{
     margin-left:2.5%;
+    width:80%;
     margin-top:auto;
+    font-size:17px;
     flex-wrap:wrap;
     text-transform:sentence-case;
     color:black;
 }
 .notify_name{
-font-weight:600;
+flex-wrap:wrap;
+font-weight:bold;
 color:black;
-margin:1% ;
+
 
 
 }
+        
+#user_agent{
+    font-weight:600;
+    text-transform:sentence-case;
+}
+        
+        
+        
+        
+        
 #notify_khaterine{
     background:url(  https://1.bp.blogspot.com/-_HEdbpa6BuQ/XTxzrcIKA-I/AAAAAAAAGEg/gqBAxwrUiYwJbMfhLS3x5Puh-ZUCfNyCACEwYBhgL/s640/Hannah%2BBaker%2BHD%2Bpics.jpg
  );
@@ -689,8 +694,7 @@ margin:1% ;
     background-size:cover;
 }
 #user_id_name,#upload_post,#profile_setting_menu,#lock{
-    margin:auto;  
-    font-size:22px;
+    margin:auto; 
     
 }
 #lock{
@@ -704,7 +708,6 @@ margin:1% ;
     margin-righ:-10px;
     float:right ;
     
-
 }
 #upload_post{
     margin-right:-20px;
